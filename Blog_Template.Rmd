@@ -1,0 +1,29 @@
+---
+title: "Insert Your Title Here"
+author: "Insert Your Name Here"
+date: "Insert The Date Here"
+output: html_document
+---
+<style>
+body {
+    background-color: #FFEDBA;
+}
+
+div.center {
+  text-align: center;
+}
+
+.caption {
+    font-size: x-small;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<div class="center">
+## What's In This Template
+</div>
+
+This template provides us with the basic building blocks necessary to create a single page within our blog. I setup the file this way in order to more easily embed plots from R. In addition, I also implemented a handful of stylistic features I thought made the blog look nicer. For example, the background color for each page is permanently set to be a light tan and I have added a feature that allows us to quickly center text and/or images. As time goes on, we can add more features to this basic template. But for now, let's just remember that it is guiding the overall aesthetic of the blog.
